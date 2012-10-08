@@ -9,23 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F8FD5A7161F8CCB000988D3 /* UIApplication+PRIVATEKeyEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8FD5A6161F8CCB000988D3 /* UIApplication+PRIVATEKeyEvents.m */; };
 		1FA1E74B161F7A9C0052B78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1E74A161F7A9C0052B78E /* Foundation.framework */; };
-		1FA1E75A161F7A9C0052B78E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1E759161F7A9C0052B78E /* SenTestingKit.framework */; };
-		1FA1E75C161F7A9C0052B78E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1E75B161F7A9C0052B78E /* UIKit.framework */; };
-		1FA1E75D161F7A9C0052B78E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1E74A161F7A9C0052B78E /* Foundation.framework */; };
-		1FA1E760161F7A9C0052B78E /* libJJPrivateKeyEvents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1E747161F7A9C0052B78E /* libJJPrivateKeyEvents.a */; };
-		1FA1E766161F7A9C0052B78E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FA1E764161F7A9C0052B78E /* InfoPlist.strings */; };
 		1FA1E77F161F7BEE0052B78E /* GraphicsServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA1E77E161F7BEE0052B78E /* GraphicsServices.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1FA1E75E161F7A9C0052B78E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FA1E73E161F7A9C0052B78E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FA1E746161F7A9C0052B78E;
-			remoteInfo = JJPrivateKeyEvents;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1FA1E745161F7A9C0052B78E /* CopyFiles */ = {
@@ -45,11 +30,8 @@
 		1FA1E747161F7A9C0052B78E /* libJJPrivateKeyEvents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJJPrivateKeyEvents.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA1E74A161F7A9C0052B78E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FA1E74E161F7A9C0052B78E /* JJPrivateKeyEvents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JJPrivateKeyEvents-Prefix.pch"; sourceTree = "<group>"; };
-		1FA1E758161F7A9C0052B78E /* JJPrivateKeyEventsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJPrivateKeyEventsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA1E759161F7A9C0052B78E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1FA1E75B161F7A9C0052B78E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1FA1E763161F7A9C0052B78E /* JJPrivateKeyEventsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JJPrivateKeyEventsTests-Info.plist"; sourceTree = "<group>"; };
-		1FA1E765161F7A9C0052B78E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FA1E77E161F7BEE0052B78E /* GraphicsServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GraphicsServices.framework; path = Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/PrivateFrameworks/GraphicsServices.framework; sourceTree = DEVELOPER_DIR; };
 		1FA1E781161F7C0E0052B78E /* GraphicsServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsServices.h; sourceTree = "<group>"; };
 		1FA1E782161F7C0E0052B78E /* GSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSBase.h; sourceTree = "<group>"; };
@@ -77,17 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FA1E754161F7A9C0052B78E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FA1E75A161F7A9C0052B78E /* SenTestingKit.framework in Frameworks */,
-				1FA1E75C161F7A9C0052B78E /* UIKit.framework in Frameworks */,
-				1FA1E75D161F7A9C0052B78E /* Foundation.framework in Frameworks */,
-				1FA1E760161F7A9C0052B78E /* libJJPrivateKeyEvents.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				1FA1E74C161F7A9C0052B78E /* JJPrivateKeyEvents */,
-				1FA1E761161F7A9C0052B78E /* JJPrivateKeyEventsTests */,
 				1FA1E749161F7A9C0052B78E /* Frameworks */,
 				1FA1E748161F7A9C0052B78E /* Products */,
 			);
@@ -105,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				1FA1E747161F7A9C0052B78E /* libJJPrivateKeyEvents.a */,
-				1FA1E758161F7A9C0052B78E /* JJPrivateKeyEventsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,23 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				1FA1E74E161F7A9C0052B78E /* JJPrivateKeyEvents-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1FA1E761161F7A9C0052B78E /* JJPrivateKeyEventsTests */ = {
-			isa = PBXGroup;
-			children = (
-				1FA1E762161F7A9C0052B78E /* Supporting Files */,
-			);
-			path = JJPrivateKeyEventsTests;
-			sourceTree = "<group>";
-		};
-		1FA1E762161F7A9C0052B78E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1FA1E763161F7A9C0052B78E /* JJPrivateKeyEventsTests-Info.plist */,
-				1FA1E764161F7A9C0052B78E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -198,25 +150,6 @@
 			productReference = 1FA1E747161F7A9C0052B78E /* libJJPrivateKeyEvents.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1FA1E757161F7A9C0052B78E /* JJPrivateKeyEventsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FA1E76F161F7A9C0052B78E /* Build configuration list for PBXNativeTarget "JJPrivateKeyEventsTests" */;
-			buildPhases = (
-				1FA1E753161F7A9C0052B78E /* Sources */,
-				1FA1E754161F7A9C0052B78E /* Frameworks */,
-				1FA1E755161F7A9C0052B78E /* Resources */,
-				1FA1E756161F7A9C0052B78E /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FA1E75F161F7A9C0052B78E /* PBXTargetDependency */,
-			);
-			name = JJPrivateKeyEventsTests;
-			productName = JJPrivateKeyEventsTests;
-			productReference = 1FA1E758161F7A9C0052B78E /* JJPrivateKeyEventsTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,37 +172,9 @@
 			projectRoot = "";
 			targets = (
 				1FA1E746161F7A9C0052B78E /* JJPrivateKeyEvents */,
-				1FA1E757161F7A9C0052B78E /* JJPrivateKeyEventsTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		1FA1E755161F7A9C0052B78E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FA1E766161F7A9C0052B78E /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1FA1E756161F7A9C0052B78E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FA1E743161F7A9C0052B78E /* Sources */ = {
@@ -280,33 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FA1E753161F7A9C0052B78E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1FA1E75F161F7A9C0052B78E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FA1E746161F7A9C0052B78E /* JJPrivateKeyEvents */;
-			targetProxy = 1FA1E75E161F7A9C0052B78E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1FA1E764161F7A9C0052B78E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FA1E765161F7A9C0052B78E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FA1E76A161F7A9C0052B78E /* Debug */ = {
@@ -387,36 +266,6 @@
 			};
 			name = Release;
 		};
-		1FA1E770161F7A9C0052B78E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JJPrivateKeyEvents/JJPrivateKeyEvents-Prefix.pch";
-				INFOPLIST_FILE = "JJPrivateKeyEventsTests/JJPrivateKeyEventsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		1FA1E771161F7A9C0052B78E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JJPrivateKeyEvents/JJPrivateKeyEvents-Prefix.pch";
-				INFOPLIST_FILE = "JJPrivateKeyEventsTests/JJPrivateKeyEventsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,15 +283,6 @@
 			buildConfigurations = (
 				1FA1E76D161F7A9C0052B78E /* Debug */,
 				1FA1E76E161F7A9C0052B78E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FA1E76F161F7A9C0052B78E /* Build configuration list for PBXNativeTarget "JJPrivateKeyEventsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FA1E770161F7A9C0052B78E /* Debug */,
-				1FA1E771161F7A9C0052B78E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
