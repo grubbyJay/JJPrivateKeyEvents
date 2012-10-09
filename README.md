@@ -18,3 +18,6 @@ The GraphicsServices framework is a private framework and can be found on your f
 /Users/jjennings/Library/Developer/Xcode/iOS DeviceSupport/5.1.1 (9B206)/Symbols/System/Library/PrivateFrameworks/GraphicsServices.framework
 
 If you have any issues, please raise an issue on this repository.  Again, make sure this library and the GraphicsServices framework do not get linked to your production application.
+
+Associated blog post at:
+http://engineering.hoteltonight.com/
