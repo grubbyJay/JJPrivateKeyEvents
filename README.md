@@ -15,8 +15,7 @@ This library allows you to capture global keystroke events for debugging purpose
 
 The GraphicsServices framework is a private framework and can be found on your filesystem in a path that looks something like:
 
-/Users/jjennings/Library/Developer/Xcode/iOS DeviceSupport/5.1.1 (9B206)/Symbols/System/Library/PrivateFrameworks/GraphicsServices.framework
-
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/PrivateFrameworks
 If you have any issues, please raise an issue on this repository.  Again, make sure this library and the GraphicsServices framework do not get linked to your production application.
 
 Associated blog post at:
